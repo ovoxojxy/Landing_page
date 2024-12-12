@@ -110,13 +110,11 @@ h2{
 }
 
 .container{
-    /* outline: 2px solid red; */
     display: flex;
     max-width: 200px;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    max-width: 200px;
   }
 
 
@@ -139,3 +137,36 @@ h2{
     text-wrap: inherit;
     margin: 16px;
   }
+
+  .quote-section{
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* align-items: center; */
+    margin-bottom: 128px;
+    padding: 100px;
+  }
+
+  
+
+  .quote-section p.quote {
+    font-size: 36px;
+    width: 60%;
+    font-style: italic;
+    font-weight: 100;
+    align-self: center;
+    margin-bottom: 0;
+  }
+
+.quote-section p.author{
+    font-weight: bold;
+    font-size: 20px;
+    width: 60%;
+    align-self: center;
+    text-align: end;
+    margin-top: 0;
+}
+
+
+
