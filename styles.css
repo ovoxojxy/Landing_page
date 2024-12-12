@@ -7,8 +7,7 @@ header{
     display: flex;
     flex-direction: column;
     background-color: #1F2937;
-    padding-right: 200px;
-    padding-left: 200px;
+    padding: 0 200px;
     color: #F9FAF8;
     font-size: 24px;
 }
@@ -40,7 +39,6 @@ h2{
 }
 
 .header-body{
-    /* outline: 2px solid red; */
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -49,18 +47,14 @@ h2{
 
 .left{
     flex: 1;
-    /* outline: 2px solid blue; */
     display: flex;
     flex-direction: column;
-    /* padding: 20px; */
     margin-right: 100px;
 }
 
 
-
 .right{
     flex: 1;
-    /* outline: 2px solid green; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -69,7 +63,6 @@ h2{
 
 .right p{
     font-size: 16px;
-
 }
 
 .left h1{
@@ -77,12 +70,11 @@ h2{
 }
 
 .left p{
-    margin: 0;
+    margin: 16px 0;
     color: #E5E7EB;
     font-size: 18px;
     padding-bottom: 8px;
     padding-right: 16px;
-    word-wrap: break-word;
 }
 
 
@@ -90,7 +82,6 @@ h2{
     background: royalblue;
     border: 1px solid royalblue;
     color: white;
-    border: none;
     border-radius: 8px;
     padding: 12px 24px;
     color: #fff;
@@ -98,5 +89,53 @@ h2{
     font-weight: bold;
     cursor: pointer;
     width: 29%;
-    margin-top: 8px;
+    margin-top: 0;
 }
+
+.information{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 128px;
+}
+
+.containers{
+    width: 100%;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 32px;
+}
+
+.container{
+    /* outline: 2px solid red; */
+    display: flex;
+    max-width: 200px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 200px;
+  }
+
+
+
+.placeholder{
+    border-radius: 8px;
+    outline: 4px solid #3882f6;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+  }
+
+  .container p{
+    font-size: 18px;
+    color: darkgray;
+    text-wrap: inherit;
+    margin: 16px;
+  }
