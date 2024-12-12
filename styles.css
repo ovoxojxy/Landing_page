@@ -1,6 +1,9 @@
 body{
     margin: 0;
     font-family: Roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 header{
@@ -61,6 +64,12 @@ h2{
     background-color: #6E747C;
 }
 
+.header-body .left p{
+    font-size: 16px;
+    margin-top: 0px;
+    padding-top: 8px;
+}
+
 .right p{
     font-size: 16px;
 }
@@ -91,6 +100,7 @@ h2{
     width: 29%;
     margin-top: 0;
 }
+
 
 .information{
     display: flex;
@@ -225,5 +235,14 @@ h2{
     margin-top: 0;
 }
 
+footer{
+    margin-top: auto;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #1F2937;
+    color: white;
+}
 
 
